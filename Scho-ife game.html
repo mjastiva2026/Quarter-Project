@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+        <title>SCHO-IFE</title>
+
+        <style>
+        
+        body{
+                background-image: url(SCHO-IFE.jpg);
+                background-size: cover;
+
+        }
+        
+        button{
+                position: relative;
+                background-color: rgb(24, 16, 8);
+                color: white;
+                border: none;
+                display: block;
+                width: 100%;
+                cursor: pointer;
+                font-size: 1rem;
+                font-family:'Courier New', Courier, monospace;
+                padding: 1rem;
+                width: auto;
+               
+            }
+
+        button:hover{
+                background-color: #ffece3;
+                color: black;
+            }
+    
+        button:focus{
+                outline: none;
+                background-color: #ffece3;
+                color: black;
+            }
+</style>
+<body>
+    <button id="Start" style="top: 17rem; left: 35rem; ">S T A R T</button>
+    <button id="About" style="top: 19rem; left: 35rem;">A B O U T</button>
+    <button id="Creator" style="top: 21rem; left: 33rem;">C R E A T O R S</button>
+
+    <script>
+        document.querySelector('#Start')
+            .addEventListener('click', () => {
+                window.location.href = 'trialnerror.html'
+            });
+
+        document.querySelector('#About')
+            .addEventListener('click', () => {
+                window.location.href = 'About.html'
+            });
+    </script>
+</body>
+
+</html>
